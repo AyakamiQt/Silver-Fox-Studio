@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  background: #120d24;
+
+  color: white;
+
+}
+
+
+header {
+
+  padding: 25px;
+
+  text-align: center;
+
+  background: #211638;
+
+}
+
+
+nav a {
+
+  color: white;
+
+  text-decoration: none;
+
+  margin: 15px;
+
+}
+
+
+nav a:hover {
+
+  color: #c9b6ff;
+
+}
+
+
+.hero {
+
+  height: 80vh;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
+  background:
+    linear-gradient(#0007, #0007),
+    url("../images/banner/banner.png");
+
+  background-size: cover;
+
+}
+
+
+.hero h2 {
+
+  font-size: 3rem;
+
+}
+
+
+button {
+
+  padding: 15px 30px;
+
+  border-radius: 25px;
+
+  border: none;
+
+  background: #9b7cff;
+
+  color: white;
+
+  cursor: pointer;
+
+}
+
+
+.intro {
+
+  padding: 60px;
+
+  text-align: center;
+
+}
+
+
+footer {
+
+  text-align: center;
+
+  padding: 20px;
+
+  background: #211638;
+
+}
